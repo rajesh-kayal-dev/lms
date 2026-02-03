@@ -8,7 +8,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 const WatchCourse = () => {
   return (
     <Layout>
-      <section className='section-5'>
+      <section className='section-5 my-5'>
         <div className='container'>
           <div className='row'>
             <div className='col-md-8'>
