@@ -8,6 +8,9 @@ import Register from '../components/pages/Register'
 import MyLearning from '../components/pages/account/MyLearning'
 import MyCourses from '../components/pages/account/MyCourses'
 import WatchCourse from '../components/pages/account/WatchCourse'
+import CreateCourse from '../components/pages/account/CreateCourse'
+import ViewCourse from '../components/pages/account/ViewCourse'
+import ChangePassword from '../components/pages/ChangePassword'
 
 const AppRoutes = () => {
     return (
@@ -20,6 +23,10 @@ const AppRoutes = () => {
             <Route path='/account/my-learning' element={<MyLearning />} />
             <Route path='/account/my-courses' element={<MyCourses />} />
             <Route path='/account/watch-course' element={<WatchCourse />} />
+            <Route path='/account/my-courses/create' element={<CreateCourse />} />
+            <Route path='/account/my-courses/view' element={<ViewCourse />} />
+            <Route path='/account/change-password' element={<ChangePassword />} />
+
         </Routes>
     )
 }

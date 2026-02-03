@@ -7,7 +7,6 @@ import Hero from './components/common/Hero'
 const App = () => {
   return (
     <BrowserRouter>
-
       <AppRoutes />
     </BrowserRouter>
   )
